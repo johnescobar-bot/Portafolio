@@ -12,11 +12,31 @@
         .content-side { padding: 35px; flex: 1; display: flex; flex-direction: column; justify-content: center; }
         .project-title { font-size: 1.6em; color: #0d47a1; margin: 0 0 15px; font-weight: 800; text-transform: uppercase; border-bottom: 2px solid #e3f2fd; padding-bottom: 10px; }
         .resumen { font-size: 1.05em; line-height: 1.7; color: #444; margin-bottom: 25px; text-align: justify; }
-        .meta-container { display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #eee; padding-top: 20px; }
+        .meta-container { display: flex; justify-content: space-between; align-items: flex-end; border-top: 1px solid #eee; padding-top: 20px; margin-bottom: 20px; }
         .meta-label { font-size: 0.8em; text-transform: uppercase; color: #777; font-weight: bold; display: block; margin-bottom: 5px; }
         .meta-value { font-size: 1em; color: #1a1a1a; font-weight: 600; }
         .badge { display: inline-block; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.85em; margin-top: 10px; background-color: #e3f2fd; color: #0d47a1; }
         .price { font-size: 1.5em; font-weight: 800; color: #2e7d32; }
+        
+        .btn-presentation {
+            display: block;
+            width: fit-content;
+            padding: 12px 25px;
+            background-color: #0d47a1;
+            color: white !important;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 0.95em;
+            text-align: center;
+            transition: background 0.3s, transform 0.2s;
+            box-shadow: 0 4px 10px rgba(13, 71, 161, 0.2);
+        }
+        .btn-presentation:hover {
+            background-color: #1565c0;
+            transform: translateY(-2px);
+        }
+
         .totals-section { margin-top: 60px; display: flex; gap: 30px; }
         .total-box { flex: 1; background: #fff; padding: 30px; border-radius: 12px; border-left: 8px solid #0d47a1; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
         .total-box.max { border-left-color: #2e7d32; }
@@ -55,7 +75,13 @@
         <div class="image-side" style="background-image: url('2. AVION.jpeg');"></div>
         <div class="content-side">
             <h2 class="project-title">2. PROYECTO EMPRESAS AÉREAS USA</h2>
-            <p class="resumen">3 Proyectos: 1. Transporte aéreo de productos alimenticios de Colombi, Perú y Ecuador a USA y el caribe. 2. Operación de aviones para dar en Leasing operandolos para un tercero. Desarrollo de 3 hubs de Carga en Florida, Carolina del Norte y Pensilvania. 3. Aerolinea para opererar desde USA, Alaska y costa oeste.</p>
+            <p class="resumen">
+                3 PROYECTOS:<br>
+                1. Transporte aéreo de productos alimenticios de Colombia, Perú y Ecuador a USA y el caribe.<br>
+                2. Operación de aviones para dar en Leasing operándolos para un tercero. Desarrollo de 3 hubs de Carga en Florida, Carolina del Norte y Pensilvania.<br>
+                3. Aerolínea para operar desde USA, Alaska y costa oeste.<br>
+                Garantías en Aviones entre otras.
+            </p>
             <div class="meta-container">
                 <div>
                     <span class="meta-label">Localización</span>
@@ -75,91 +101,95 @@
         <div class="image-side" style="background-image: url('3. SOLAR.jpeg');"></div>
         <div class="content-side">
             <h2 class="project-title">3. PROYECTO FOTOVOLTAICO</h2>
-            <p class="resumen">Modelo de triple uso de 920 hectáreas de tierra: generación solar a escala de servicios públicos, gandería ovina regenerativa y agricultura de precisión. 502.3 MWp de capacidad fotovoltáica. Terrenos en Garantía.</p>
+            <p class="resumen">Modelo de triple uso de 920 hectáreas de tierra: generación solar a escala de servicios públicos, gandería ovina regenerativa y agricultura de precisión en las 920 Hectáreas. 502.3 MWp de capacidad fotovoltáica. Terrenos en Garantía.</p>
             <div class="meta-container">
                 <div>
                     <span class="meta-label">Localización</span>
                     <span class="meta-value">📍 Las Cabezas, Cesar. Colombia</span>
                     <br>
-                    <span class="badge">CAPEX y preoperativos iniciales</span>
+                    <span class="badge">Levantamiento de capital para CAPEX y preoperativos iniciales</span>
                 </div>
                 <div style="text-align: right;">
                     <span class="meta-label">Valor Estimado</span>
                     <div class="price">$320,000,000</div>
                 </div>
             </div>
+            <a href="3. PROYECTO FOTOVOLTAICO LAS CABEZAS 07 05 26 AV CONSULTORES.pdf" class="btn-presentation" target="_blank">Ver Presentación Proyecto 3</a>
         </div>
     </div>
     
     <div class="project-card">
-        <div class="image-side" style="background-image: url('4. guatape.jpeg');"></div>
+        <div class="image-side" style="background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1000&q=80');"></div>
         <div class="content-side">
-            <h2 class="project-title">4. LOS SENDEROS: HOTEL ULTRA LUJO</h2>
-            <p class="resumen">Desarrollo hotelero en región de creciente expansión de Antioquia, Colombia, Guatapé y el Peñol. El desarrollo contempla entre otras un Eco Ultra Luxury Hotel en lote con vista privilegiada al embalse.</p>
+            <h2 class="project-title">4. LOS SENDEROS: HOTEL ULTRA LUJO EMBALSE EL PEÑOL</h2>
+            <p class="resumen">Desarrollo hotelero en región de creciente expansión de Antioquia, Colombia, Guatapé y el Peñol. El desarrollo contempla entre otras UN ECO ULTRA LUXURY HOTEL.</p>
             <div class="meta-container">
                 <div>
                     <span class="meta-label">Localización</span>
-                    <span class="meta-value">📍 El Peñol, Antioquia</span>
+                    <span class="meta-value">📍 EL PEÑOL, ANTIOQUIA, COLOMBIA</span>
                     <br>
-                    <span class="badge">Venta de lote para desarrollo</span>
+                    <span class="badge">Desean vender el lote para desarrollo hotelero de lujo.</span>
                 </div>
                 <div style="text-align: right;">
                     <span class="meta-label">Valor Estimado</span>
                     <div class="price">$4,500,000</div>
                 </div>
             </div>
+            <a href="4. PRESENTACION LOTE EL PEÑOL 80.270 M2 APORTE 50% AV 08 05 23.pdf" class="btn-presentation" target="_blank">Ver Presentación Proyecto 4</a>
         </div>
     </div>
     
     <div class="project-card">
-        <div class="image-side" style="background-image: url('5. hotel medellin.jpeg');"></div>
+        <div class="image-side" style="background-image: url('https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1000&q=80');"></div>
         <div class="content-side">
-            <h2 class="project-title">5. VENTA HOTEL 4 ESTRELLAS</h2>
-            <p class="resumen">Hotel amoblado con locales arrendados (renta aprox. USD $13,800). Ocupación promedio del 70%. Excelente historial de ventas anuales y ubicación estratégica en la capital de Antioquia.</p>
+            <h2 class="project-title">5. VENTA HOTEL 4 ESTRELLAS, MEDELLÍN COLOMBIA</h2>
+            <p class="resumen">El hotel se entrega amoblado, Los locales están arrendados y es decisión del nuevo propietario si los deja o los pide. Rentan más menos USD $13,800. La ocupación es del 70 % en promedio y el año pasado cerró en USD $13.8 Millones en ventas.</p>
             <div class="meta-container">
                 <div>
                     <span class="meta-label">Localización</span>
-                    <span class="meta-value">📍 Medellín, Colombia</span>
+                    <span class="meta-value">📍 MEDELLÍN, COLOMBIA</span>
                     <br>
-                    <span class="badge">Venta de activo operando</span>
+                    <span class="badge">Desean vender el hotel.</span>
                 </div>
                 <div style="text-align: right;">
                     <span class="meta-label">Valor Estimado</span>
                     <div class="price">$10,000,000</div>
                 </div>
             </div>
+            <a href="5. Venta Exclusivo Hotel Laureles Medellin 07 05 26 AV CONSULTORIAS (1).pdf" class="btn-presentation" target="_blank">Ver Presentación Proyecto 5</a>
         </div>
     </div>
     
     <div class="project-card">
         <div class="image-side" style="background-image: url('6. VILLAO.jpeg');"></div>
         <div class="content-side">
-            <h2 class="project-title">6. LOTE BULEVAR CODEM</h2>
-            <p class="resumen">Predio constituido por 2 lotes colindantes (19.512 m2). Se aporta mediante contrato fiduciario a constructora calificada para desarrollo de vivienda de clase media.</p>
+            <h2 class="project-title">6. LOTE BULEVAR CODEM (VILLAVICENCIO)</h2>
+            <p class="resumen">Construcción de viviendas. Area lotes: el predio en oferta está constituido por 2 lotes colindantes, con un globo total de 19.512M2. valor de USD $6.5 Millones. El predio se aporta mediante un contrato fiduciario a una empresa constructora calificada que tenga los recursos y la posibilidad de crédito constructor para el desarrollo del proyecto. 2. Se solicita USD $560.000 y el 12% del valor de las ventas totales como participación de predio en el negocio.</p>
             <div class="meta-container">
                 <div>
                     <span class="meta-label">Localización</span>
-                    <span class="meta-value">📍 Villavicencio, Colombia</span>
+                    <span class="meta-value">📍 VILLAVICENCIO, COLOMBIA</span>
                     <br>
-                    <span class="badge">Aporte de tierra / Capital</span>
+                    <span class="badge">Levantamiento de capital</span>
                 </div>
                 <div style="text-align: right;">
                     <span class="meta-label">Valor Estimado</span>
                     <div class="price">$560,000</div>
                 </div>
             </div>
+            <a href="6. Lote  Bulevar Codem (Villavicencio)pdf 04 26 AV.pdf" class="btn-presentation" target="_blank">Ver Presentación Proyecto 6</a>
         </div>
     </div>
     
     <div class="project-card">
         <div class="image-side" style="background-image: url('7. META.jpg');"></div>
         <div class="content-side">
-            <h2 class="project-title">7. LA RESERVA CLUB HOUSE</h2>
-            <p class="resumen">Proyecto de desarrollo urbano implantado en predio de 6.249 m2. Área optimizada para construcción de viviendas bajo concepto de Club House en zona de alta valorización.</p>
+            <h2 class="project-title">7. PROYECTO LA RESERVA CLUB HOUSE ACACIAS</h2>
+            <p class="resumen">Construcción de viviendas. El proyecto de desarrollo urbano está implantado en un predio urbano de 6.249 m2. Área suficiente para realizar el desarrollo propuesto. Se solicitan USD $420.000 y el 12% del valor de las ventas totales como participación de predio en el negocio.</p>
             <div class="meta-container">
                 <div>
                     <span class="meta-label">Localización</span>
-                    <span class="meta-value">📍 Acacías, Meta</span>
+                    <span class="meta-value">📍 Acacías, Meta, Colombia</span>
                     <br>
                     <span class="badge">Levantamiento de capital</span>
                 </div>
@@ -168,6 +198,7 @@
                     <div class="price">$420,000</div>
                 </div>
             </div>
+            <a href="7. PROYECTO LA RESERVA CLUB HOUSE ACACIAS 04 26 AV pdf.pdf" class="btn-presentation" target="_blank">Ver Presentación Proyecto 7</a>
         </div>
     </div>
     
