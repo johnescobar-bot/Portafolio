@@ -18,6 +18,8 @@
         .badge { display: inline-block; padding: 6px 15px; border-radius: 20px; font-weight: bold; font-size: 0.85em; margin-top: 10px; background-color: #e3f2fd; color: #0d47a1; }
         .price { font-size: 1.5em; font-weight: 800; color: #2e7d32; }
         
+        .button-group { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+        
         .btn-presentation {
             display: block;
             width: fit-content;
@@ -31,11 +33,18 @@
             text-align: center;
             transition: background 0.3s, transform 0.2s;
             box-shadow: 0 4px 10px rgba(13, 71, 161, 0.2);
-            margin-top: 10px;
         }
         .btn-presentation:hover {
             background-color: #1565c0;
             transform: translateY(-2px);
+        }
+        
+        .btn-web {
+            background-color: #e65100;
+            box-shadow: 0 4px 10px rgba(230, 81, 0, 0.2);
+        }
+        .btn-web:hover {
+            background-color: #ef6c00;
         }
 
         .totals-section { margin-top: 60px; display: flex; gap: 30px; }
@@ -81,7 +90,12 @@
                 1. Transporte aéreo de productos alimenticios de Colombia, Perú y Ecuador a USA y el caribe.<br>
                 2. Operación de aviones para dar en Leasing operándolos para un tercero. Desarrollo de 3 hubs de Carga en Florida, Carolina del Norte y Pensilvania.<br>
                 3. Aerolínea para operar desde USA, Alaska y costa oeste.<br>
-                GARANTIAS: LOTES EN PENSILVANIA E ISLAS SAN MARTIN, MÁS DE 400 HA.
+                GARANTIAS: LOTES EN PENSILVANIA E ISLAS SAN MARTIN, MÁS DE 400 HA.<br><br>
+                Fase 1: $35 MM.<br>
+                Fase 2: $60 MM.<br>
+                Fase 3: $50 MM.<br>
+                Fase 4: $70 MM.<br>
+                Fase 5: $70 MM.
             </p>
             <div class="meta-container">
                 <div>
@@ -95,7 +109,10 @@
                     <div class="price">Entre $35,000,000 y $550,000,000</div>
                 </div>
             </div>
-            <a href="https://www.majestic-plt.com/" class="btn-presentation" target="_blank">Ver Presentación Proyecto 2</a>
+            <div class="button-group">
+                <a href="2.coronel.pdf" class="btn-presentation" target="_blank">Ver Presentación Proyecto 2</a>
+                <a href="https://www.majestic-plt.com" class="btn-presentation btn-web" target="_blank">Para revisar la página web del proyecto haga click aqui</a>
+            </div>
         </div>
     </div>
     
